@@ -35,11 +35,11 @@ As such, those are in use within the default layer at this time.*/
               };
               lower_layer {
                      bindings = <
-       &trans &trans &trans    &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
-       &trans &trans &kp KP_N7 &kp KP_N8     &kp KP_N9       &kp KP_PLUS
-       &trans &trans &kp KP_N4 &kp KP_N5     &kp KP_N6       &kp KP_PLUS
-       &trans &trans &kp KP_N1 &kp KP_N2     &kp KP_N3       &kp RET      &trans
-       &trans &trans &kp KP_N0 &kp KP_N0     &kp KP_DOT      &kp RET      &trans
+       &to DEFAULT &trans  &trans    &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
+       &kp E       &kp F   &kp KP_N7 &kp KP_N8     &kp KP_N9       &kp KP_PLUS
+       &kp C       &kp D   &kp KP_N4 &kp KP_N5     &kp KP_N6       &kp KP_PLUS
+       &kp A       &kp B   &kp KP_N1 &kp KP_N2     &kp KP_N3       &kp RET      &trans
+       &trans      &trans  &kp KP_N0 &kp KP_N0     &kp KP_DOT      &kp RET      &trans
                      >;
               };
               raise_layer {
